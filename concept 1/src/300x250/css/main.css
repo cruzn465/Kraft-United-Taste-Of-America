@@ -1,0 +1,190 @@
+body {
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+* {
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000px;
+	-ms-overflow-style: hidden;
+}
+
+#container {
+	background-color: white;
+	position: absolute;
+	overflow: hidden;
+	border: 1px solid black;
+}
+
+.sprite {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.fpo {
+	opacity: .5;
+}
+
+#blueBg_2x {
+	left:0px;
+	top:143px;
+	width:300px;
+	height:107px;
+	background-image:url(../img/blueBg_2x.png);
+	background-size:300px 107px;
+}
+
+#f1c1_2x {
+	left:159px;
+	top:7px;
+	width:125px;
+	height:28px;
+	background-image:url(../img/f1c1_2x.png);
+	background-size:125px 28px;
+}
+
+#f1c2_2x {
+    left: 155.5px;
+    top: 41px;
+    width: 127px;
+    height: 16px;
+    background-image: url(../img/f1c2_2x.png);
+    background-size: 127px 16px;
+}
+
+#f1c3_2x {
+    left: 155.8px;
+    top: 60.4px;
+    width: 128px;
+    height: 42px;
+    background-image: url(../img/f1c3_2x.png);
+    background-size: 128px 42px;
+}
+
+#f1c4_2x {
+    left: 155px;
+    top: 106px;
+    width: 128px;
+    height: 16px;
+    background-image: url(../img/f1c4_2x.png);
+    background-size: 128px 16px;
+}
+
+#woodBg_2x {
+	scale: 1.2;
+	left:0px;
+	top:-27px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/woodBg_2x.jpg);
+	background-size:300px 250px;
+}
+
+#redBg_2x {
+	left:0px;
+	top:0px;
+	width:138px;
+	height:250px;
+	background-image:url(../img/redBg_2x.png);
+	background-size:138px 250px;
+}
+
+#hotdog_2x {
+	left:0px;
+	top:13px;
+	width:138px;
+	height:155px;
+	background-image:url(../img/hotdog_2x.png);
+	background-size:138px 155px;
+}
+
+#ketchup_2x {
+	left:146px;
+	top:132px;
+	width:64px;
+	height:118px;
+	background-image:url(../img/ketchup_2x.png);
+	background-size:64px 118px;
+}
+
+#mustard_2x {
+	left:208px;
+	top:131px;
+	width:64px;
+	height:119px;
+	background-image:url(../img/mustard_2x.png);
+	background-size:64px 119px;
+}
+
+#pack_2x {
+	left:195px;
+	top:190px;
+	width:98px;
+	height:60px;
+	background-image:url(../img/pack_2x.png);
+	background-size:98px 60px;
+}
+
+#ef_copy1_2x {
+	left:191px;
+	top:9px;
+	width:55px;
+	height:24px;
+	background-image:url(../img/ef_copy1_2x.png);
+	background-size:55px 24px;
+}
+
+#ef_copy2_2x {
+	left:148px;
+	top:37px;
+	width:142px;
+	height:20px;
+	background-image:url(../img/ef_copy2_2x.png);
+	background-size:142px 20px;
+}
+
+#ef_copy3_2x {
+	left:149px;
+	top:61px;
+	width:141px;
+	height:23px;
+	background-image:url(../img/ef_copy3_2x.png);
+	background-size:141px 23px;
+}
+
+#ef_copy4_2x {
+	left:149px;
+	top:88px;
+	width:141px;
+	height:17px;
+	background-image:url(../img/ef_copy4_2x.png);
+	background-size:141px 17px;
+}
+
+#cta_2x {
+	left:12px;
+	top:182px;
+	width:122px;
+	height:31px;
+	background-image:url(../img/cta_2x.png);
+	background-size:122px 31px;
+}
+
+#fpo_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/fpo_2x.jpg);
+	background-size:300px 250px;
+}
+
+#f1c0_2x {
+	left:50px;
+	top:24px;
+	width:200px;
+	height:178px;
+	background-image:url(../img/f1c0_2x.png);
+	background-size:200px 178px;
+}
