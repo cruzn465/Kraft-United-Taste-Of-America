@@ -72,6 +72,15 @@ function animate(){
     //set timeline
     tl
     // F1
+    // even stagger anim V1
+    // .staggerTo(f1_copy,1,{x:dimensions.width+100,ease:Power2.easeOut},.1,"+=.5")
+
+    // uneven stagger V1
+    // .to(f1c1_2x,0.7,{x:dimensions.width+100,ease:Power1.easeOut},.5)
+    // .to(f1c2_2x,0.6,{x:dimensions.width,ease:Power2.easeOut},.53)
+    // .to(f1c3_2x,0.7,{x:dimensions.width+50,ease:Power1.easeOut},.6)
+    // .to(f1c4_2x,0.8,{x:dimensions.width+50,ease:Power1.easeOut},.65)
+    
 
     // F2
     .from(f1c0_2x,1,{})
@@ -95,15 +104,32 @@ function animate(){
     .staggerTo(f1_copy,1,{x:dimensions.width+100,ease:Power2.easeOut},.1,"+=.5")
     .staggerFrom(ef_copy,.5,{x:-dimensions.width,ease:Power2.easeOut},.1,"-=.8")
 
+
+    
+
+    // .from(ef_copy1_2x,0.5,{x:-dimensions.width,ease:Power1.easeOut},"ef")
+    // .from(ef_copy2_2x,0.8,{x:-dimensions.width,ease:Power2.easeOut},"ef+=.1") 
+    // .from(ef_copy3_2x,0.7,{x:-dimensions.width,ease:Power1.easeOut},"ef+=.2")
+    // .from(ef_copy4_2x,0.8,{x:-dimensions.width,ease:Power1.easeOut},"ef+=.3") 
+
+
+
+
+
+
+
     
     // .call(returnTimer)
 }
 
-function returnTimer(){
-    stopWatch=((new Date().getTime())-stopWatch)*.001;
-    console.log(stopWatch+" seconds");
+// RM FXNS
+function myFunction() {
+  Enabler.exit('BackgroundExit');
 }
 
+function exitClickHandler() {
+  Enabler.exit('BackgroundExit');
+}
 function clickThrough(){
     window.open(clicktag);
 }

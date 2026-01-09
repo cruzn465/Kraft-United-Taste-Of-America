@@ -72,16 +72,18 @@ function animate(){
     //set timeline
     tl
     // F1
+    // even stagger anim V1
+    // .staggerTo(f1_copy,1,{x:dimensions.width+100,ease:Power2.easeOut},.1,"+=.5")
+
+    // uneven stagger V1
+    // .to(f1c1_2x,0.7,{x:dimensions.width+100,ease:Power1.easeOut},.5)
+    // .to(f1c2_2x,0.6,{x:dimensions.width,ease:Power2.easeOut},.53)
+    // .to(f1c3_2x,0.7,{x:dimensions.width+50,ease:Power1.easeOut},.6)
+    // .to(f1c4_2x,0.8,{x:dimensions.width+50,ease:Power1.easeOut},.65)
+    
 
     // F2
-    .from(f1c0_2x,1,{})
-    .to(f1c0_2x,0.5,{x:69,y:-48,scale:.65,ease:Power2.easeOut},"f2-entrance")
-    .to(woodBg_2x,0.6,{y:26,scale:.9,ease:Power2.easeOut},"f2-entrance")
-
-    // fade out f1c0 fade in f1_copy
-    .to(f1c0_2x,0.00001,{opacity:0},"f2-entrance+=.5")
-    .from(f1_copy,0.00001,{opacity:0},"f2-entrance+=.5")
-
+    .from(woodBg_2x,1,{})
     .from(blueBg_2x,0.5,{y:dimensions.height,ease:Power2.easeOut},"f2-entrance")
     .from(redBg_2x,0.4,{x:-dimensions.width,ease:Power2.easeOut},"f2-entrance+=.1")
     .from(hotdog_2x,.7,{x:-dimensions.width},"+=.2")
@@ -95,7 +97,6 @@ function animate(){
     .staggerTo(f1_copy,1,{x:dimensions.width+100,ease:Power2.easeOut},.1,"+=.5")
     .staggerFrom(ef_copy,.5,{x:-dimensions.width,ease:Power2.easeOut},.1,"-=.8")
 
-    
     // .call(returnTimer)
 }
 
@@ -104,6 +105,14 @@ function returnTimer(){
     console.log(stopWatch+" seconds");
 }
 
+// RM FXNS
+function myFunction() {
+  Enabler.exit('BackgroundExit');
+}
+
+function exitClickHandler() {
+  Enabler.exit('BackgroundExit');
+}
 function clickThrough(){
     window.open(clicktag);
 }
