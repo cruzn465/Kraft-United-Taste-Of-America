@@ -109,13 +109,13 @@ function returnTimer(){
 }
 
 // RM FXNS
-// function myFunction() {
-//   Enabler.exit('BackgroundExit');
-// }
+function myFunction() {
+  Enabler.exit('BackgroundExit');
+}
 
-// function exitClickHandler() {
-//   Enabler.exit('BackgroundExit');
-// }
+function exitClickHandler() {
+  Enabler.exit('BackgroundExit');
+}
 function clickThrough(){
     window.open(clicktag);
 }

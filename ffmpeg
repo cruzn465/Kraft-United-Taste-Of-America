@@ -1,0 +1,4 @@
+ffmpeg -i woodBg_2x.jpg -compression_level 100 woodBg_2x-1.jpg
+
+
+ffmpeg -i redBg_2x.png -compression_level 100 redBg_2x-1.png

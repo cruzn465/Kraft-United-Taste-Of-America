@@ -35,8 +35,7 @@ body {
 	top:143px;
 	width:300px;
 	height:107px;
-	background-image:url(../img/blueBg_2x.png);
-	background-size:300px 107px;
+	background-color: #0d6da7
 }
 
 #f1c1_2x {
@@ -83,15 +82,6 @@ body {
 	height:250px;
 	background-image:url(../img/woodBg_2x.jpg);
 	background-size:300px 250px;
-}
-
-#redBg_2x {
-	left:0px;
-	top:0px;
-	width:138px;
-	height:250px;
-	background-image:url(../img/redBg_2x.png);
-	background-size:138px 250px;
 }
 
 #hotdog_2x {
@@ -218,4 +208,14 @@ body {
 	height:100px;
 	background-image:url(../img/burger_2x.png);
 	background-size:154px 100px;
+}
+
+
+#redbg1_2x {
+	left:0px;
+	top:0px;
+	width:138px;
+	height:250px;
+	background-image:url(../img/redbg1_2x.jpg);
+	background-size:138px 250px;
 }

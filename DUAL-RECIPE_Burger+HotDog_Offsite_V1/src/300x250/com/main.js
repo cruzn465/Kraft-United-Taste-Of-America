@@ -81,7 +81,7 @@ function animate(){
     .from(f1_copy,0.00001,{opacity:0},"f2-entrance+=.4")
     // BGS ENTER
     .from(blueBg_2x,0.5,{y:dimensions.height,ease:Power2.easeOut},"f2-entrance")
-    .from(redBg_2x,0.4,{x:-dimensions.width,ease:Power2.easeOut},"f2-entrance+=.1")
+    .from(redbg1_2x,0.4,{x:-dimensions.width,ease:Power2.easeOut},"f2-entrance+=.1")
     
     // HOTDOG AND BURGER ENTER
     .from(hotdog_2x,.7,{x:-dimensions.width,ease:Power2.easeOut},"hd")

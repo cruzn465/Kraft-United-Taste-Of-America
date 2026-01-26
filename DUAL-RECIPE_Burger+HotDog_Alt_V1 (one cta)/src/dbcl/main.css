@@ -43,7 +43,7 @@ body {
     top: 9.6px;
     width: 106px;
     height: 24px;
-    background-image: url(../img/f1c1_2x.png);
+    background-image: url(f1c1_2x.png);
     background-size: 106px 24px;
 }
 
@@ -52,7 +52,7 @@ body {
 	top:39px;
 	width:110px;
 	height:38px;
-	background-image:url(../img/f1c2_2x.png);
+	background-image:url(f1c2_2x.png);
 	background-size:110px 38px;
 }
 
@@ -61,7 +61,7 @@ body {
     top: 78px;
     width: 110px;
     height: 22px;
-    background-image: url(../img/f1c3_2x.png);
+    background-image: url(f1c3_2x.png);
     background-size: 110px 22px;
 }
 
@@ -70,7 +70,7 @@ body {
 	top:102px;
 	width:108px;
 	height:15px;
-	background-image:url(../img/f1c4_2x.png);
+	background-image:url(f1c4_2x.png);
 	background-size:108px 15px;
 }
 
@@ -80,7 +80,7 @@ body {
 	top:-27px;
 	width:300px;
 	height:250px;
-	background-image:url(../img/woodBg_2x.jpg);
+	background-image:url(woodBg_2x.jpg);
 	background-size:300px 250px;
 }
 
@@ -89,7 +89,7 @@ body {
 	top:9px;
 	width:158px;
 	height:166px;
-	background-image:url(../img/hotdog_2x.png);
+	background-image:url(hotdog_2x.png);
 	background-size:158px 166px;
 }
 
@@ -98,7 +98,7 @@ body {
 	top:133px;
 	width:51px;
 	height:97px;
-	background-image:url(../img/ketchup_2x.png);
+	background-image:url(ketchup_2x.png);
 	background-size:51px 97px;
 }
 
@@ -107,7 +107,7 @@ body {
 	top:134px;
 	width:50px;
 	height:94px;
-	background-image:url(../img/mustard_2x.png);
+	background-image:url(mustard_2x.png);
 	background-size:50px 94px;
 }
 
@@ -116,7 +116,7 @@ body {
 	top:183px;
 	width:79px;
 	height:61px;
-	background-image:url(../img/pack_2x.png);
+	background-image:url(pack_2x.png);
 	background-size:79px 61px;
 }
 
@@ -125,7 +125,7 @@ body {
 	top:9px;
 	width:55px;
 	height:24px;
-	background-image:url(../img/ef_copy1_2x.png);
+	background-image:url(ef_copy1_2x.png);
 	background-size:55px 24px;
 }
 
@@ -134,7 +134,7 @@ body {
 	top:37px;
 	width:142px;
 	height:20px;
-	background-image:url(../img/ef_copy2_2x.png);
+	background-image:url(ef_copy2_2x.png);
 	background-size:142px 20px;
 }
 
@@ -143,7 +143,7 @@ body {
 	top:61px;
 	width:141px;
 	height:23px;
-	background-image:url(../img/ef_copy3_2x.png);
+	background-image:url(ef_copy3_2x.png);
 	background-size:141px 23px;
 }
 
@@ -152,7 +152,7 @@ body {
 	top:88px;
 	width:141px;
 	height:17px;
-	background-image:url(../img/ef_copy4_2x.png);
+	background-image:url(ef_copy4_2x.png);
 	background-size:141px 17px;
 }
 
@@ -161,7 +161,7 @@ body {
 	top:182px;
 	width:122px;
 	height:31px;
-	background-image:url(../img/cta_2x.png);
+	background-image:url(cta_2x.png);
 	background-size:122px 31px;
 }
 
@@ -170,7 +170,7 @@ body {
 	top:0px;
 	width:300px;
 	height:250px;
-	background-image:url(../img/fpo_2x.jpg);
+	background-image:url(fpo_2x.jpg);
 	background-size:300px 250px;
 }
 
@@ -179,7 +179,7 @@ body {
 	top:20px;
 	width:202px;
 	height:198px;
-	background-image:url(../img/f1c0_2x.png);
+	background-image:url(f1c0_2x.png);
 	background-size:202px 198px;
 }
 
@@ -188,7 +188,7 @@ body {
 	top:145px;
 	width:72px;
 	height:63px;
-	background-image:url(../img/cheese_2x.png);
+	background-image:url(cheese_2x.png);
 	background-size:72px 63px;
 }
 
@@ -197,7 +197,7 @@ body {
 	top:228px;
 	width:51px;
 	height:17px;
-	background-image:url(../img/legal_2x.png);
+	background-image:url(legal_2x.png);
 	background-size:51px 17px;
 }
 
@@ -206,7 +206,7 @@ body {
 	top:149px;
 	width:154px;
 	height:100px;
-	background-image:url(../img/burger_2x.png);
+	background-image:url(burger_2x.png);
 	background-size:154px 100px;
 }
 
@@ -215,6 +215,6 @@ body {
 	top:0px;
 	width:138px;
 	height:250px;
-	background-image:url(../img/redbg1_2x.jpg);
+	background-image:url(redbg1_2x.jpg);
 	background-size:138px 250px;
 }
