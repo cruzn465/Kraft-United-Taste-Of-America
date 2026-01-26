@@ -158,11 +158,11 @@ body {
 
 #cta_2x {
 	left:10px;
-	top:156px;
+	top:153px;
 	width:122px;
-	height:69px;
+	height:67px;
 	background-image:url(../img/cta_2x.png);
-	background-size:122px 69px;
+	background-size:122px 67px;
 }
 
 #fpo_2x {
@@ -184,21 +184,21 @@ body {
 }
 
 #cheese_2x {
-	left:223px;
-	top:155px;
-	width:76px;
-	height:66px;
+	left:227px;
+	top:145px;
+	width:72px;
+	height:63px;
 	background-image:url(../img/cheese_2x.png);
-	background-size:76px 66px;
+	background-size:72px 63px;
 }
 
 #legal_2x {
-	left:53px;
-	top:237px;
-	width:39px;
-	height:7px;
+	left:47px;
+	top:228px;
+	width:51px;
+	height:17px;
 	background-image:url(../img/legal_2x.png);
-	background-size:39px 7px;
+	background-size:51px 17px;
 }
 
 #burger_2x {
