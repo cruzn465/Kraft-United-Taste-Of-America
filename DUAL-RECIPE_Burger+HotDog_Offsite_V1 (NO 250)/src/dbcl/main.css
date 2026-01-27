@@ -120,18 +120,10 @@ body {
 	background-size:79px 61px;
 }
 
-#ef_copy1_2x {
-	left:191px;
-	top:9px;
-	width:55px;
-	height:24px;
-	background-image:url(ef_copy1_2x.png);
-	background-size:55px 24px;
-}
 
 #ef_copy2_2x {
 	left:148px;
-	top:37px;
+	top:31px;
 	width:142px;
 	height:20px;
 	background-image:url(ef_copy2_2x.png);
@@ -140,7 +132,7 @@ body {
 
 #ef_copy3_2x {
 	left:149px;
-	top:61px;
+	top:55px;
 	width:141px;
 	height:23px;
 	background-image:url(ef_copy3_2x.png);
@@ -149,13 +141,12 @@ body {
 
 #ef_copy4_2x {
 	left:149px;
-	top:88px;
+	top:82px;
 	width:141px;
 	height:17px;
 	background-image:url(ef_copy4_2x.png);
 	background-size:141px 17px;
 }
-
 #cta_2x {
 	left:10px;
 	top:153px;
@@ -194,11 +185,11 @@ body {
 
 #legal_2x {
 	left:47px;
-	top:228px;
+	top:238px;
 	width:51px;
-	height:17px;
+	height:7px;
 	background-image:url(legal_2x.png);
-	background-size:51px 17px;
+	background-size:51px 7px;
 }
 
 #burger_2x {
